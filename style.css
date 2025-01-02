@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFEDDB;
+    align-items: center;
+    height: 80px;
+    padding: 15px 50px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin-left: 80px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+
+
+
+
+nav ul li a {
+
+    color: #BF9270;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #E3B7A0;
+}
+
+
+.logo img {
+    margin-left: 20px;
+    height: 78px;
+    width: auto;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: none;
+    background-color: #FFEDDB;
+    font-size: 18px;
+    border: 3px solid #E3B7A0;
+    border-radius: 50px;
+    color: #BF9270;
+    transition: color, background-color 0.4s ease, border-radius 0.4s ease 0.3s;
+} 
+
+.button:hover {
+    color:#FFEDDB;
+    border-radius: 10px;
+    background-color: #BF9270;
+}
+
+
+
+/* MAIN CONTENT */
+.main {
+    height: 400px;
+    margin-top: 3%;
+}
+
+.main h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: #BF9270;
+    padding: 10px 20px;
+}
+
+.main h2 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 2rem;
+    text-align: center;
+    color: #BF9270;
+    padding: 10px 20px;
+}
+
+.browse-btn {
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #BF9270;
+    background-color: #FFEDDB;
+    border: 3px solid #E3B7A0;
+    transition: color, background-color 0.4s ease, border-radius 0.4s ease 0.3s;
+}
+
+.browse-btn:hover {
+    color:#FFEDDB;
+    border-radius: 30px;
+    background-color: #BF9270;
+}
+
+hr {
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid #E3B7A0;
+
+}
+
+/* logo pic under the line */
+
+.logo-break {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-items: center;
+    padding-top: 20px;
+    height: 120px;
+    width: auto;
+}
+
+/* Sections Part */
+
+/* .section {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; */
+
+
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    margin: 100px;
+    margin-right: 500px;
+    width: 80%;
+}
+
+.section-img {
+    float: left;
+    max-width: 320px;
+    margin-right: 18px;
+    border: 3px solid white;
+    border-radius: 30px;
+}
+
+.text-box {
+    color: #BF9270;
+    padding: 10px 20px;
+}
+
+.text-box h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.text-box p {
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.text-box button {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #BF9270;
+    font-size: 15px;
+    padding: 18px 20px;
+    background-color: #FFEDDB;
+    border: 2px solid #E3B7A0;
+    border-radius: 20px;
+    transition: color, background-color 0.4s ease, border-radius 0.4s ease 0.3s;
+}
+
+.text-box button:hover {
+    color:#FFEDDB;
+    border-radius: 10px;
+    background-color: #BF9270;
+}
+
+/* SECTION WITH PICTURE ON THE RIGHT SIDE OML THIS SHI KILLING ME */
+
+.section-img-right {
+    width: 500px;
+    border: 3px solid white;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+
+.wrapper-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    margin-left: 280px;
+    width: 80%;
+    min-height: 50vh;
+}
+
+
+.text-box-left {
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: #BF9270;
+    float: left;
+}
+
+.text-box-left h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.text-box-left p {
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.text-box-left button {
+    margin-right: 15px;
+    cursor: pointer;
+    color: #BF9270;
+    font-size: 15px;
+    padding: 18px 20px;
+    background-color: #FFEDDB;
+    border: 2px solid #E3B7A0;
+    border-radius: 20px;
+    transition: color, background-color 0.4s ease, border-radius 0.4s ease 0.3s;
+}
+
+.text-box-left button:hover {
+    color:#FFEDDB;
+    border-radius: 10px;
+    background-color: #BF9270;
+}
